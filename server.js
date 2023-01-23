@@ -10,7 +10,7 @@ const connection = mongoose.connect(DB);
 
 app.listen(8080,async ()=>{
      try {
-        connection
+        await connection
         console.log('Connected to DB');
      } catch (err) {
         console.log('Error connecting')
