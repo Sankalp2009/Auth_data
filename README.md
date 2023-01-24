@@ -8,3 +8,7 @@ Defined Routes:-
 /api/auth/login
 <br>
 /api/auth/changepassword
+<br>
+/api/v1/Jobs
+<br>
+/api/v1/Jobs/:id
